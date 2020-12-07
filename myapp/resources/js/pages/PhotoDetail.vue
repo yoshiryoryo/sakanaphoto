@@ -26,10 +26,10 @@
       class="button" 
       title="Download photo"
       >
-        <i class="icon ion-md-arrow-round-down"></i>Download
+        <i class="icon ion-md-arrow-round-down"></i>ダウンロード
       </a>
       <h2 class="photo-detail__title">
-        <i class="icon ion-md-chatboxes"></i>Comments
+        <i class="icon ion-md-chatboxes"></i>コメント
       </h2>
       <!-- コメントが1件以上あるときはulのリストを表示、ない場合はpの要素を表示 -->
       <ul v-if="photo.comments.length > 0" class="photo-detail__comments">

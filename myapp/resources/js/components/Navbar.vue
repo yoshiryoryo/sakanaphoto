@@ -7,7 +7,7 @@
       <div class="navbar__item">
         <button class="button" @click="showForm = !showForm">
           <i class="icon ion-md-add"></i>
-          Submit a photo
+          写真投稿
         </button>
       </div>
       <span v-if="isLogin" class="navbar__item">
@@ -15,7 +15,7 @@
       </span>
       <div v-else class="navbar__item">
         <RouterLink class="button button--link" to="/login">
-          Login / Register
+          ログイン / 新規登録
         </RouterLink>
       </div>
     </div>

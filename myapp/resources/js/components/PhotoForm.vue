@@ -2,7 +2,7 @@
   <div v-show="value" class="photo-form">
     <h2 class="title">Submit a photo</h2>
     <div v-show="loading" class="panel">
-      <Loader>Sending your photo...</Loader>
+      <Loader>投稿中...</Loader>
     </div>
     <form v-show="! loading" class="form" @submit.prevent="submit">
       <div class="errors" v-if="errors">
@@ -15,7 +15,7 @@
         <img :src="preview" alt="">
       </output>
       <div class="form__button">
-        <button type="submit" class="button button--inverse">submit</button>
+        <button type="submit" class="button button--inverse">送信</button>
       </div>
     </form>
   </div>
