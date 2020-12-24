@@ -1,3 +1,4 @@
+<?php echo '<?xml version="1.0" encoding="UTF-8"?>'."\n" ?>
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
